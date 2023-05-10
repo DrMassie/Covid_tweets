@@ -1,5 +1,5 @@
-# Covid_tweets
-Keyword "coronavirus" tweets from March 4, 2020 to May 20, 2020 before "covid" or "covid19" became popular.
+## Covid_tweets
+Keyword "coronavirus" tweets from March 4, 2020 to May 20, 2020 before "covid" or "covid19" became popular. Each dataset is named based on the "week" (going from Wednesday to Wednesday as the data starts on a Wednesday) of the data and is condensed to 1 million observations (or less) per file. Thus, "covidwk1miniA" represents the first 1 million rows of week 1 of the data. As week 1 has 9,819,591 observations, the file ending in "J" will only have 819,591 observations. Four variables are in each dataset: created_at (i.e., the date of the tweet), username (i.e., the handle of the user), text (i.e,. the tweet itself), and location (i.e., information on user profile that the user put as his/her location).
 
 Original dataset collected via the DMI-TCAT housed at Kutztown University of Pennsylvania. 
 DMI-TCAT: Erik Borra, Bernhard Rieder, (2014) "Programmed method: developing a toolset for capturing and analyzing tweets", Aslib Journal of Information Management, Vol. 66 Iss: 3, pp.262 - 278.
